@@ -4,6 +4,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 nav{
     display: flex;
@@ -187,6 +188,12 @@ text-align: center;
 opacity: 0.7;
 margin-bottom: 80px;
 }
+.my-inspiration iframe{
+    /* box-sizing: border-box; */
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+
+}
 
 
 /* my-inspiration section css end */
@@ -209,6 +216,7 @@ font-weight: 800;
 line-height: 37px;
 letter-spacing: 0%;
 text-align: center;
+margin-bottom: 24px;
 }
 .target-desc p{
     color: rgb(13, 19, 33);
@@ -268,3 +276,145 @@ text-align: left;
 text-decoration-line: underline;
 }
 /* my current target section css end */
+
+/* my next target section css start */
+.next-target{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+.next-desc{
+    margin: 0 auto;
+    width: 850px;
+    
+}
+.next-desc h1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 25px;
+}
+.next-desc p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+text-align: center;
+margin-bottom: 40px;
+}
+.next-tar{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    padding: 40px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+}
+.next-tar img{
+    margin: 5px 30px;
+}
+.inner-desc h1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 10px;
+}
+.inner-desc p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+margin-bottom: 15px;
+}
+.inner-desc a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+/* my next target section css end */
+
+/* support section css start  */
+.support{
+background:rgba(0,0,0,0.5)url(../images/handshake.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-blend-mode: darken;
+width: 1200px;
+height: 350px;
+margin: 0 auto;
+border-radius: 16px;
+padding: 64px 48px;
+
+}
+.support h1{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 16px;
+}
+.support p{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 24px;
+}
+.support input{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+padding: 19px 20px 19px 20px;
+width: 548px;
+height: 57px;
+}
+.support .sub{
+    text-align: center;
+}
+.support button{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+/* line-height: 23px; */
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+padding: 15px 20px 19px 20px;
+border: none;
+}
+/* support section css end  */
