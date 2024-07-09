@@ -117,7 +117,7 @@ margin-bottom: 16px;
 .goals{
     width: 900px;
     margin: 0 auto;
-    
+    margin-bottom: 200px;
 }
 .goal{
     display: flex;
@@ -155,3 +155,37 @@ opacity: 0.7;
 padding: 12px 20px 12px 20px;
 }
 /* why web development section css end */
+
+/* my-inspiration section css start */
+.my-inspiration{
+    width: 1100px;
+    margin: 0 auto;
+}
+.inspire-desc{
+    width: 800px;
+    margin: 0 auto;
+}
+.inspire-desc h1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 24px;
+}
+.inspire-desc p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 80px;
+}
+
+
+/* my-inspiration section css end */
