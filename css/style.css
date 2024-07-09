@@ -160,6 +160,7 @@ padding: 12px 20px 12px 20px;
 .my-inspiration{
     width: 1100px;
     margin: 0 auto;
+    margin-bottom: 150px;
 }
 .inspire-desc{
     width: 800px;
@@ -189,3 +190,81 @@ margin-bottom: 80px;
 
 
 /* my-inspiration section css end */
+
+/* my current target section css start */
+.target-section{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+.target-desc{
+    width: 900px;
+    margin: 0 auto;
+}
+.target-desc h1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.target-desc p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 80px;
+}
+.targets{
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    margin-left: 20px;
+}
+.target{
+    margin-right: 50px;
+}
+.targets .target{
+    width: 280px;
+}
+.targets .target img{
+    margin-bottom: 24px;
+}
+.targets .target h1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 10px;
+}
+.targets .target p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 10px;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+.targets .target a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+/* my current target section css end */
