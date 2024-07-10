@@ -6,9 +6,10 @@
     box-sizing: border-box;
 }
 
-html,body{
+html{
     scroll-behavior: smooth;
 }
+
 /* nav section css start */
 nav{
     display: flex;
@@ -117,6 +118,20 @@ nav{
 .margin-right{
     margin-right: 40px;
 }
+.webdev{
+    /* background-color: ; */
+    width: 1140px;
+    height: 1395px;
+    border-radius: 16px;
+    left: 148px;
+    right: 152px;
+    top: 857px;
+    bottom: 2993px;
+    margin: 0 auto;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    background: rgba(13, 19, 33, 0.041);
+}
 .why-web-dev{
     width: 900px;
     margin: 0 auto;
@@ -160,7 +175,10 @@ nav{
 .goal{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 120px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    padding: 40px 30px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 .goal-desc{
     width: 500px;
@@ -251,13 +269,13 @@ border-radius: 16px;
 
 /* my current target section css start */
 .first-bg{
-    background-color: rgb(130, 224, 228);
+    background-color: rgba(255, 76, 30, 0.05);;
 }
 .second-bg{
-    background-color: rgb(54, 214, 179);
+    background-color: rgba(0, 76, 232, 0.05);;
 }
 .third-bg{
-    background-color: rgb(100, 238, 185);
+    background-color: rgba(255, 223, 0, 0.05);
 }
 .target-section{
     width: 1200px;
@@ -504,6 +522,7 @@ border-radius: 16px;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 32px;
+    background: rgba(255, 223, 0, 0.05);
 }
 #foot p{
     color: rgb(13, 19, 33);
