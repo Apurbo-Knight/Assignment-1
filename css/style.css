@@ -389,6 +389,11 @@ border-radius: 16px;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
+    transition: all linear .2s;
+}
+.next-tar:hover{
+    box-shadow: 5px 5px 15px;
+    transition: all linear .2s;
 }
 .next-tar img{
     margin: 5px 30px;
@@ -471,6 +476,7 @@ border-radius: 16px;
     height: 57px;
     margin-right: 16px;
 }
+
 .support .sub{
     text-align: center;
 }
