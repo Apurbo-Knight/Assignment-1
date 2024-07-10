@@ -25,7 +25,7 @@ nav{
     letter-spacing: 0%;
     text-align: left;
 }
- .nav-btn{
+.nav-btn{
     padding: 17px 24px 17px 24px;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
@@ -36,8 +36,13 @@ nav{
     font-weight: 600;
     line-height: 23px;
     letter-spacing: 0%;
-    text-align: center;
-    
+    text-align: center;  
+    transition: all linear .3s;
+}
+.nav-btn:hover{
+      background-color: black;
+      color: rgb(182, 158, 238);
+      transition: all linear .3s;
 }
 /* nav section css end */
 
@@ -96,6 +101,14 @@ nav{
     border-radius: 8px;
     background-color: black;
     padding: 21px 24px 21px 24px; 
+    transition: all linear .3s;
+
+}
+.hero-btn:hover{
+    background-color: white;
+    color: rgb(182, 158, 238);
+    transition: all linear .3s;
+
 }
 /* hero section css end */
 
@@ -178,6 +191,14 @@ nav{
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     padding: 12px 20px 12px 20px;
+    transition: all linear .3s;
+
+}
+.goal-desc button:hover{
+    background-color: black;
+    color: white;
+    transition: all linear .3s;
+    border-radius: 10px;
 }
 /* why web development section css end */
 
@@ -229,6 +250,15 @@ border-radius: 16px;
 /* my-inspiration section css end */
 
 /* my current target section css start */
+.first-bg{
+    background-color: rgb(130, 224, 228);
+}
+.second-bg{
+    background-color: rgb(54, 214, 179);
+}
+.third-bg{
+    background-color: rgb(100, 238, 185);
+}
 .target-section{
     width: 1200px;
     margin: 0 auto;
@@ -267,7 +297,14 @@ border-radius: 16px;
     margin-left: 20px;
 }
 .target{
-    margin-right: 50px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all linear .4s;
+}
+.target:hover{
+    box-shadow: 5px 5px 15px;
+    transition: all linear .3s;
 }
 
 .targets .target{
