@@ -104,7 +104,7 @@ nav{
     background-color: black;
     padding: 21px 24px 21px 24px; 
     transition: all linear .3s;
-    /* cursor: pointer; */
+    cursor: pointer;
 }
 .hero-btn:hover{
     background-color: white;
@@ -511,6 +511,12 @@ border-radius: 16px;
     background: rgb(255, 255, 255);
     padding: 15px 20px 19px 20px;
     border: none;
+    cursor: pointer;
+}
+.support button:hover{
+    background: rgb(151, 149, 145);
+    color: rgb(48, 46, 51);
+    transition: all linear .3s;
 }
 /* support section css end  */
 
