@@ -39,6 +39,7 @@ nav{
     letter-spacing: 0%;
     text-align: center;  
     transition: all linear .3s;
+    cursor: pointer;
 }
 .nav-btn:hover{
       background-color: black;
@@ -103,7 +104,7 @@ nav{
     background-color: black;
     padding: 21px 24px 21px 24px; 
     transition: all linear .3s;
-
+    /* cursor: pointer; */
 }
 .hero-btn:hover{
     background-color: white;
@@ -210,7 +211,7 @@ nav{
     opacity: 0.7;
     padding: 12px 20px 12px 20px;
     transition: all linear .3s;
-
+    cursor: pointer;
 }
 .goal-desc button:hover{
     background-color: black;
