@@ -101,6 +101,9 @@ nav{
 
 
 /* why web development section css start */
+.margin-right{
+    margin-right: 40px;
+}
 .why-web-dev{
     width: 900px;
     margin: 0 auto;
@@ -209,11 +212,17 @@ nav{
     opacity: 0.7;
     margin-bottom: 80px;
 }
+.video{
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    
+}
 .my-inspiration iframe{
     /* box-sizing: border-box; */
 border: 1px solid rgba(13, 19, 33, 0.2);
 border-radius: 16px;
-
 }
 
 
